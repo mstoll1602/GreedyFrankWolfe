@@ -1,0 +1,50 @@
+LFR Benchmark datasets (number of node 1000, average degree = 5, min community size = 50, mixing coefficient = 0.1)
+ test  &  omega_0  &   epsilon   & method   &  time   & iters     & accuracy \\ 
+     1 &  1e+03    &  5e+01      & GFW      & 0.029  & 30.00       & 99.0% \\ 
+LFR Benchmark datasets (number of node 5000, average degree = 5, min community size = 50, mixing coefficient = 0.1)
+ test  &  omega_0  &   epsilon   & method   &  time   & iters     & accuracy \\ 
+     1 &  1e+03    &  5e+01      & GFW      & 0.375  & 30.00       & 99.2% \\ 
+Twitch network 
+ test  &  omega_0  &   epsilon   & method   &  time   & iters     & accuracy \\ 
+     2 &  1e+03    &  5e+01      & GFW      & 14.798  & 30.00       & 92.9% \\ 
+Last FM network 
+ test  &  omega_0  &   epsilon   & method   &  time   & iters     & accuracy \\ 
+     3 &  1e+03    &  5e+01      & GFW      & 0.123  & 30.00       & 85.9% \\ 
+Facebook network 
+ test  &  omega_0  &   epsilon   & method   &  time   & iters     & accuracy \\ 
+     4 &  1e+03    &  5e+01      & GFW      & 0.274  & 30.00       & 95.3% \\ 
+Amazon (computers) network 
+ test  &  omega_0  &   epsilon   & method   &  time   & iters     & accuracy \\ 
+     5 &  1e+03    &  5e+01      & GFW      & 0.379  & 30.00       & 91.9% \\ 
+Twitch network 
+ test  &  omega_0  &   epsilon   & method   &  time   & iters     & accuracy \\ 
+     2 &  1e+03    &  5e+01      & GFW      & 23.397  & 30.00       & 92.9% \\ 
+Last FM network 
+ test  &  omega_0  &   epsilon   & method   &  time   & iters     & accuracy \\ 
+     3 &  1e+03    &  5e+01      & GFW      & 0.120  & 30.00       & 85.9% \\ 
+Facebook network 
+ test  &  omega_0  &   epsilon   & method   &  time   & iters     & accuracy \\ 
+     4 &  1e+03    &  5e+01      & GFW      & 0.305  & 30.00       & 95.3% \\ 
+Amazon (computers) network 
+ test  &  omega_0  &   epsilon   & method   &  time   & iters     & accuracy \\ 
+     5 &  1e+03    &  5e+01      & GFW      & 0.371  & 30.00       & 91.9% \\ 
+LFR Benchmark datasets (number of node 1000, average degree = 5, min community size = 50, mixing coefficient = 0.1)
+ test  &  omega_0  &   epsilon   & method   &  time   & iters     & accuracy \\ 
+     1 &  1e+03    &  5e+01      & GFW      & 0.027  & 30.00       & 99.0% \\ 
+LFR Benchmark datasets (number of node 5000, average degree = 5, min community size = 50, mixing coefficient = 0.1)
+ test  &  omega_0  &   epsilon   & method   &  time   & iters     & accuracy \\ 
+     1 &  1e+03    &  5e+01      & GFW      & 0.629  & 30.00       & 99.2% \\ 
+%%%%%%%%% NO DA QUILast FM network 
+ test  &  omega_0  &   epsilon   & method   &  time   & iters     & accuracy \\ 
+     3 &  1e+03    &  5e+01      & GFW      & 0.147  & 30.00       & 85.9% \\ 
+Last FM network 
+ test  &  omega_0  &   epsilon   & method   &  time   & iters     & accuracy \\ 
+     3 &  1e+03    &  5e+01      & GFW      & 0.133  & 30.00       & 85.9% \\ 
+Last FM network 
+ test  &  omega_0  &   epsilon   & method   &  time   & iters     & accuracy \\ 
+     3 &  1e+03    &  5e+01      & GFW      & 0.172  & 30.00       & 85.9% \\ 
+Facebook network 
+ test  &  omega_0  &   epsilon   & method   &  time   & iters     & accuracy \\ 
+     4 &  1e+03    &  5e+01      & GFW      & 0.310  & 30.00       & 95.3% \\ 
+Twitch network 
+ test  &  omega_0  &   epsilon   & method   &  time   & iters     & accuracy \\ 

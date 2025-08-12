@@ -1,0 +1,56 @@
+LFR Benchmark datasets (number of node 1000, average degree = 5, min community size = 50, mixing coefficient = 0.1)
+ test  &  omega_0  &   mu        & method   &  time   & %time svd &  iters     & accuracy \\ 
+     1 &  1e+02    &  1e+02      & CS      &   2.533  &   2.0%    & 18.00       & 98.6% \\ 
+LFR Benchmark datasets (number of node 5000, average degree = 5, min community size = 50, mixing coefficient = 0.1)
+ test  &  omega_0  &   mu        & method   &  time   & %time svd &  iters     & accuracy \\ 
+     1 &  1e+02    &  1e+02      & CS      &   26.109  &   0.8%    & 10.00       & 22.6% \\ 
+Twitch network 
+ test  &  omega_0  &   mu        & method   &  time   & %time svd &  iters     & accuracy \\ 
+     2 &  1e+02    &  1e+01      & CS      &   30.229  &  15.5%    & 7.00       & 84.6% \\ 
+Last FM network 
+ test  &  omega_0  &   mu        & method   &  time   & %time svd &  iters     & accuracy \\ 
+     3 &  1e+03    &  5e+01      & CS      &   1.730  &  18.0%    & 77.00       & 76.4% \\ 
+Facebook network Keig = 100
+ test  &  omega_0  &   mu        & method   &  time   & %time svd &  iters     & accuracy \\ 
+     4 &  1e+02    &  1e+01      & CS      &   18.045  &  95.1%    & 25.00       & 74.6% \\ 
+Amazon (computers) network Keig = 150
+ test  &  omega_0  &   mu        & method   &  time   & %time svd &  iters     & accuracy \\ 
+     5 &  1e+02    &  5e+02      & CS      &   19.677  &  93.0%    & 24.00       & 77.3% \\ 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TEMPI SENZA SVDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+Twitch network 
+ test  &  omega_0  &   mu        & method   &  time   & %time svd &  iters     & accuracy \\ 
+     2 &  1e+02    &  1e+01      & CS      &   37.013  &  12.9%    & 7.00       & 84.6% \\ 
+Last FM network 
+ test  &  omega_0  &   mu        & method   &  time   & %time svd &  iters     & accuracy \\ 
+     3 &  1e+03    &  5e+01      & CS      &   1.452  &  22.1%    & 77.00       & 76.4% \\ 
+Facebook network 
+ test  &  omega_0  &   mu        & method   &  time   & %time svd &  iters     & accuracy \\ 
+     4 &  1e+02    &  1e+01      & CS      &   0.972  &  1805.8%    & 25.00       & 74.6% \\ 
+Amazon (computers) network 
+ test  &  omega_0  &   mu        & method   &  time   & %time svd &  iters     & accuracy \\ 
+     5 &  1e+02    &  5e+02      & CS      &   1.398  &  1404.7%    & 24.00       & 77.3% \\ 
+LFR Benchmark datasets (number of node 1000, average degree = 5, min community size = 50, mixing coefficient = 0.1)
+ test  &  omega_0  &   mu        & method   &  time   & %time svd &  iters     & accuracy \\ 
+     1 &  1e+02    &  1e+02      & CS      &   0.128  &  42.1%    & 18.00       & 98.6% \\ 
+LFR Benchmark datasets (number of node 5000, average degree = 5, min community size = 50, mixing coefficient = 0.1)
+ test  &  omega_0  &   mu        & method   &  time   & %time svd &  iters     & accuracy \\ 
+     1 &  1e+02    &  1e+02      & CS      &   27.995  &   0.7%    & 10.00       & 22.6% \\ 
+%%%%%%%%% NO DA QUILast FM network 
+ test  &  omega_0  &   mu        & method   &  time   & %time svd &  iters     & accuracy \\ 
+     3 &  1e+03    &  5e+01      & CS      &   49.645  &   0.8%    & 77.00       & 76.4% \\ 
+Last FM network 
+ test  &  omega_0  &   mu        & method   &  time   & %time svd &  iters     & accuracy \\ 
+     3 &  1e+03    &  5e+01      & CS      &   1.755  &  19.5%    & 77.00       & 76.4% \\ 
+Last FM network 
+ test  &  omega_0  &   mu        & method   &  time   & %time svd &  iters     & accuracy \\ 
+     3 &  1e+03    &  5e+01      & CS      &   51.807  &   0.8%    & 77.00       & 76.4% \\ 
+Facebook network 
+ test  &  omega_0  &   mu        & method   &  time   & %time svd &  iters     & accuracy \\ 
+     4 &  1e+02    &  1e+01      & CS      &   7.767  &  252.8%    & 25.00       & 74.6% \\ 
+Twitch network 
+ test  &  omega_0  &   mu        & method   &  time   & %time svd &  iters     & accuracy \\ 

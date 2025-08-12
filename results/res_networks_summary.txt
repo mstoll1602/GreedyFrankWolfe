@@ -1,0 +1,118 @@
+LFR Benchmark datasets (number of node 1000, average degree = 5, min community size = 50, mixing coefficient = 0.1)
+#nodes = 1000, #classes = 11, sparsity of Ls = 5.38e-03
+ test  &  omega_0  &   mu/eps    & method   &  time  &  iters     & accuracy \\ 
+     1 &  1e+03    &  1e+02      & CS       & 2.533  & 18.00       & 98.6% \\ 
+     1 &  1e+03    &            & MBO      & 0.099  & 2.00       & 98.3% \\ 
+     1 &  1e+03    &  5e+01      & GFW      & 0.029  & 30.00       & 99.0% \\ 
+
+LFR Benchmark datasets (number of node 5000, average degree = 5, min community size = 50, mixing coefficient = 0.1)
+#nodes = 5000, #classes = 62, sparsity of Ls = 1.03e-03
+ test  &  omega_0  &   mu/eps    & method   &  time  &  iters     & accuracy \\ 
+     1 &  1e+03    &  1e+02      & CS       & 26.109  & 10.00       & 22.6% \\ 
+     1 &  1e+03    &            & MBO      & 18.385  & 167.00       & 32.0% \\ 
+     1 &  1e+03    &  5e+01      & GFW      & 0.375  & 30.00       & 99.2% \\ 
+
+Twitch network 
+#nodes = 168114, #classes = 21, sparsity of Ls = 4.87e-04
+ test  &  omega_0  &   mu/eps    & method   &  time  &  iters     & accuracy \\ 
+     2 &  1e+03    &  1e+01      & CS       & 30.229  & 7.00       & 84.6% \\ 
+     2 &  1e+03    &            & MBO      & 6.947  & 2.00       & 84.7% \\ 
+     2 &  1e+03    &  5e+01      & GFW      & 14.798  & 30.00       & 92.9% \\ 
+
+Last FM network 
+#nodes = 7624, #classes = 9, sparsity of Ls = 1.09e-03
+ test  &  omega_0  &   mu/eps    & method   &  time  &  iters     & accuracy \\ 
+     3 &  1e+03    &  5e+01      & CS       & 1.730  & 77.00       & 76.4% \\ 
+     3 &  1e+03    &            & MBO      & 4.349  & 167.00       & 76.2% \\ 
+     3 &  1e+03    &  5e+01      & GFW      & 0.123  & 30.00       & 85.9% \\ 
+
+Facebook network 
+#nodes = 22470, #classes = 4, sparsity of Ls = 7.21e-04
+ test  &  omega_0  &   mu/eps    & method   &  time  &  iters     & accuracy \\ 
+     4 &  1e+03    &  1e+01      & CS       & 18.045  & 25.00       & 74.6% \\ 
+     4 &  1e+03    &            & MBO      & 29.188  & 167.00       & 75.5% \\ 
+     4 &  1e+03    &  5e+01      & GFW      & 0.274  & 30.00       & 95.3% \\ 
+
+Amazon (computers) network 
+#nodes = 13752, #classes = 10, sparsity of Ls = 2.67e-03
+ test  &  omega_0  &   mu/eps    & method   &  time  &  iters     & accuracy \\ 
+     5 &  1e+03    &  5e+02      & CS       & 19.677  & 24.00       & 77.3% \\ 
+     5 &  1e+03    &            & MBO      & 29.019  & 167.00       & 80.9% \\ 
+     5 &  1e+03    &  5e+01      & GFW      & 0.379  & 30.00       & 91.9% \\ 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TEMPI SENZA SVDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Twitch network 
+#nodes = 168114, #classes = 21, sparsity of Ls = 4.87e-04
+ test  &  omega_0  &   mu/eps    & method   &  time  &  iters     & accuracy \\ 
+     2 &  1e+03    &  1e+01      & CS       & 37.013  & 7.00       & 84.6% \\ 
+     2 &  1e+03    &            & MBO      & 4.574  & 2.00       & 84.7% \\ 
+     2 &  1e+03    &  5e+01      & GFW      & 23.397  & 30.00       & 92.9% \\ 
+
+Last FM network 
+#nodes = 7624, #classes = 9, sparsity of Ls = 1.09e-03
+ test  &  omega_0  &   mu/eps    & method   &  time  &  iters     & accuracy \\ 
+     3 &  1e+03    &  5e+01      & CS       & 1.452  & 77.00       & 76.4% \\ 
+     3 &  1e+03    &            & MBO      & 4.135  & 167.00       & 76.2% \\ 
+     3 &  1e+03    &  5e+01      & GFW      & 0.120  & 30.00       & 85.9% \\ 
+
+Facebook network 
+#nodes = 22470, #classes = 4, sparsity of Ls = 7.21e-04
+ test  &  omega_0  &   mu/eps    & method   &  time  &  iters     & accuracy \\ 
+     4 &  1e+03    &  1e+01      & CS       & 0.972  & 25.00       & 74.6% \\ 
+     4 &  1e+03    &            & MBO      & 12.714  & 167.00       & 75.5% \\ 
+     4 &  1e+03    &  5e+01      & GFW      & 0.305  & 30.00       & 95.3% \\ 
+
+Amazon (computers) network 
+#nodes = 13752, #classes = 10, sparsity of Ls = 2.67e-03
+ test  &  omega_0  &   mu/eps    & method   &  time  &  iters     & accuracy \\ 
+     5 &  1e+03    &  5e+02      & CS       & 1.398  & 24.00       & 77.3% \\ 
+     5 &  1e+03    &            & MBO      & 10.876  & 167.00       & 80.9% \\ 
+     5 &  1e+03    &  5e+01      & GFW      & 0.371  & 30.00       & 91.9% \\ 
+
+LFR Benchmark datasets (number of node 1000, average degree = 5, min community size = 50, mixing coefficient = 0.1)
+#nodes = 1000, #classes = 11, sparsity of Ls = 5.38e-03
+ test  &  omega_0  &   mu/eps    & method   &  time  &  iters     & accuracy \\ 
+     1 &  1e+03    &  1e+02      & CS       & 0.128  & 18.00       & 98.6% \\ 
+     1 &  1e+03    &            & MBO      & 0.032  & 2.00       & 98.3% \\ 
+     1 &  1e+03    &  5e+01      & GFW      & 0.027  & 30.00       & 99.0% \\ 
+
+LFR Benchmark datasets (number of node 5000, average degree = 5, min community size = 50, mixing coefficient = 0.1)
+#nodes = 5000, #classes = 62, sparsity of Ls = 1.03e-03
+ test  &  omega_0  &   mu/eps    & method   &  time  &  iters     & accuracy \\ 
+     1 &  1e+03    &  1e+02      & CS       & 27.995  & 10.00       & 22.6% \\ 
+     1 &  1e+03    &            & MBO      & 39.042  & 167.00       & 32.0% \\ 
+     1 &  1e+03    &  5e+01      & GFW      & 0.629  & 30.00       & 99.2% \\ 
+
+%%%%%%%%% NO DA QUILast FM network 
+#nodes = 7624, #classes = 9, sparsity of Ls = 1.09e-03
+ test  &  omega_0  &   mu/eps    & method   &  time  &  iters     & accuracy \\ 
+     3 &  1e+03    &  5e+01      & CS       & 49.645  & 77.00       & 76.4% \\ 
+     3 &  1e+03    &            & MBO      & 21.131  & 167.00       & 76.2% \\ 
+     3 &  1e+03    &  5e+01      & GFW      & 0.147  & 30.00       & 85.9% \\ 
+
+Last FM network 
+#nodes = 7624, #classes = 9, sparsity of Ls = 1.09e-03
+ test  &  omega_0  &   mu/eps    & method   &  time  &  iters     & accuracy \\ 
+     3 &  1e+03    &  5e+01      & CS       & 1.755  & 77.00       & 76.4% \\ 
+     3 &  1e+03    &            & MBO      & 4.714  & 167.00       & 76.2% \\ 
+     3 &  1e+03    &  5e+01      & GFW      & 0.133  & 30.00       & 85.9% \\ 
+
+Last FM network 
+#nodes = 7624, #classes = 9, sparsity of Ls = 1.09e-03
+ test  &  omega_0  &   mu/eps    & method   &  time  &  iters     & accuracy \\ 
+     3 &  1e+03    &  5e+01      & CS       & 51.807  & 77.00       & 76.4% \\ 
+     3 &  1e+03    &            & MBO      & 23.417  & 167.00       & 76.2% \\ 
+     3 &  1e+03    &  5e+01      & GFW      & 0.172  & 30.00       & 85.9% \\ 
+
+Facebook network 
+#nodes = 22470, #classes = 4, sparsity of Ls = 7.21e-04
+ test  &  omega_0  &   mu/eps    & method   &  time  &  iters     & accuracy \\ 
+     4 &  1e+03    &  1e+01      & CS       & 7.767  & 25.00       & 74.6% \\ 
+     4 &  1e+03    &            & MBO      & 46.203  & 167.00       & 75.5% \\ 
+     4 &  1e+03    &  5e+01      & GFW      & 0.310  & 30.00       & 95.3% \\ 
+
+Twitch network 
+#nodes = 168114, #classes = 21, sparsity of Ls = 4.87e-04
