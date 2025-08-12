@@ -70,7 +70,7 @@ with $\bar\Delta^i_{K-1}$ :={ $y \in \mathbb{R}^K_+ :\mathbf{1}^T y=1, y_j=0\ \f
 
 ## Prerequisites
 
-Before using this code, you have to download the NFFT3 toolbox [5] from https://www-user.tu-chemnitz.de/~potts/nfft/ and run the 'configure' script with option --with-matlab=/PATH/TO/MATLAB/HOME/FOLDER.
+Before using this code, you have to download the NFFT3 toolbox [5] from [here](https://www-user.tu-chemnitz.de/~potts/nfft/) and run the 'configure' script with option --with-matlab=/PATH/TO/MATLAB/HOME/FOLDER.
 Afterwards run 'make' and 'make check'. When calling this function, the folder %NFFT-MAIN%/matlab/fastsum must be on your MATLAB path.
 
 The following MATLAB Toolboxes are required:
