@@ -56,7 +56,7 @@ function [U,it,fx,ttot,fh,timeVec,gnr] = FW_solver(U0, Ls, omega, epsilon,...
 % References:
 % [1] C. Faccio, M. Porcelli, F. Rinaldi, M. Stoll, 
 % "Fast and Simple Multiclass Data Segmentation: An Eigendecomposition and
-% Projection-Free Approach", arxive 
+% Projection-Free Approach", pp. 1-21, 2025, arXiv:2508.09738.
 
 % 
 % Authors: C. Faccio, M. Porcelli, F. Rinaldi

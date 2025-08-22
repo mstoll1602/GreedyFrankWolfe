@@ -94,7 +94,7 @@ The following MATLAB Toolboxes are required:
 
 ## References
  
- [1] C. Faccio, M. Porcelli, F. Rinaldi, M. Stoll, "Fast and Simple Multiclass Data Segmentation: An Eigendecomposition and  Projection-Free Approach", arxive ???
+ [1] C. Faccio, M. Porcelli, F. Rinaldi, M. Stoll, "Fast and Simple Multiclass Data Segmentation: An Eigendecomposition and  Projection-Free Approach", pp. 1-21, arXiv:2508.09738.
  
  [2] C. Garcia-Cardona, E. Merkurjev, A. L. Bertozzi, A. Flenner, and A. G. Percus, "Multiclass data segmentation using diffuse interface methods on graphs", IEEE Trans. Pattern Anal. Mach. Intell., 36 (2014), pp. 1600–1613,
  

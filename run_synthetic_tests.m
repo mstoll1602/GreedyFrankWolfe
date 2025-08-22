@@ -4,7 +4,7 @@
 % References:
 % [1] C. Faccio, M. Porcelli, F. Rinaldi, M. Stoll,
 % "Fast and Simple Multiclass Data Segmentation: An Eigendecomposition and
-% Projection-Free Approach", arxive 
+% Projection-Free Approach", pp. 1-21, 2025, arXiv:2508.09738.
 %
 % Authors: C. Faccio, M. Porcelli, F. Rinaldi, M. Stoll
 % Date: July 2025
