@@ -220,13 +220,12 @@ for test_choice = choice_usr
 
         fprintf('\n')
         fprintf('GREEDY FW METHOD is running ... \n')
-        FW_variant ='GFW';
         method  = 'Greedy FW method';
         np = 3;
 
         tic
         [u1_GFW, it_GFW,~,~,~,~] = FW_solver(u0, Ls, omega, epsilon, ...
-            verbosity, maxit, maxtime, gapstop, fstop, stopcr, FW_variant);
+            verbosity, maxit, maxtime, gapstop, fstop, stopcr);
         time_solver_GFW = toc;
 
         iter_GFW(test) = it_GFW-1;

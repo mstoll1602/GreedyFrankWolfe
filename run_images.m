@@ -33,14 +33,14 @@ close all;
 % add the relevant paths
 % used for subroutines creating sparse graph laplacians,
 % since the scaling is a little unsual
-%addpath(genpath('lihi'))
+% addpath(genpath('lihi'))
 % Solvers are contained in ./solvers
 addpath(genpath('solvers'))
 % Auxiliary functions contained in ./auxils
 addpath(genpath('auxils'))
 % Images are contained in ./testsets/images
 addpath(genpath('testsets'))
-% Results and segmented images will be saved in ./results
+% Results and segmented images will be saved in ./results 
 
 %% IMPORTANT
 % Add here the path to your installation of nfft, e.g.
@@ -49,8 +49,8 @@ addpath(genpath('testsets'))
 % for linux
 %addpath(genpath('/home/margherita/Desktop/nfft-3.5.3/matlab') )
 % for windows
-%addpath(genpath('C:\Users\Margherita\Documents\nfft-3.5.3\'))
-% rng('default')
+addpath(genpath('C:\Users\Margherita\Documents\nfft-3.5.3\'))
+rng('default')
 
 % Set the name of the file for printing the results 
 fileID = fopen('./results/image_tmp.txt','a+');
@@ -180,7 +180,7 @@ gapstop = 1e-04;
 
 tic
 [u1_GFW,it_GFW,~,~,~,~] = FW_solver(u0, Ls, omega, epsilon, ...
-    verbosity,30,120,gapstop,fstop,stopcr, 'GFW');
+    verbosity,30,120,gapstop,fstop,stopcr);
 time_solver_GFW = toc;
 
 % Evaluation of the model

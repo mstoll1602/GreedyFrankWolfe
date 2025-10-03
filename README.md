@@ -40,9 +40,8 @@ whit $\Sigma$ is the cartesian products of unit simplices.
 In this repository four algorithms are implemented to address the multi-class problem (1):
  1. Convex splitting method, CS [4],
  2. Merriman-Bence-Osher scheme, MBO[2],
- 3. classic Frank-Wolfe method, FW [1],
- 4. our greedy version of FW, GFW [1].
-
+ 3. the Greedy Frank-Wolfe method, GFW [1],
+ 
 #### The Greedy Frank-Wolfe (GFW) method
 
 1. Choose a point $U_0 \in \Sigma$ 
@@ -84,13 +83,11 @@ The following MATLAB Toolboxes are required:
 | auxils | contains the functions needed to run the main codes |
 | lihi | contains functions used for subroutines creating sparse graph laplacians  |
 | results | results will be saved here (text files and images) |
-| solvers  | contains the solvers CS, MBO and FW (two versions are available, the classic and the greedy one) |
+| solvers  | contains the solvers CS, MBO and GFW |
 | testsets | contains the data sets needed to run the codes |
 | README.md | this file  |
 | run_images.m | main file to run CS, MBO and GFW method for image labelling. Four testing images are supplied: beach, 3 and 4 geometric figures and sheets of papers |
 | run_networks.m | main file to run CS, MBO and GFW method for the segmentation of real networks: LFR benchmark data set, Twitch, LastFM, Facebook, Amazon (computers and photos) |
-| run_synthetic_test.m | main file to run CS, MBO and GFW method for the segmentation of syntethic data sets |
-
 
 ## References
  
