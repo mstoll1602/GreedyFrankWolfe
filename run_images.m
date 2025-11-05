@@ -49,7 +49,7 @@ addpath(genpath('testsets'))
 % for linux
 %addpath(genpath('/home/margherita/Desktop/nfft-3.5.3/matlab') )
 % for windows
-addpath(genpath('C:\Users\Margherita\Documents\nfft-3.5.3\'))
+% addpath(genpath('C:\Users\Margherita\Documents\nfft-3.5.3\nfft-3.5.3\matlab'))
 rng('default')
 
 % Set the name of the file for printing the results 
