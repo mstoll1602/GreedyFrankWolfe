@@ -58,7 +58,7 @@ $$ GLMO_{\Sigma}(G)=(w_{1},..., w_{n})^T $$
 
 with 
 - $G=(g_1,\dots,g_n)^T=\nabla E(U)$
-- $w_i = e_{j_i}$, if $i \in I$ = { $i \in [1:n]: u_i \notin$  {0,1} $^K$ }, $j_i \in argmin_{j \in supp(u_i)} (c_i)_j$,
+- $w_i = e_{j_i}$, if $i \in I$ = { $i \in [1:n]: u_i \notin$  {0,1} $^K$ }, $j_i \in argmin_{j \in supp(u_i)} (g_i)_j$,
 - $w_i = u_i$ otherwise.
 
 Here, $supp(u_i)$ denotes the indices of the nonzero elements of the vector $u_i$. More specifically, in the GLMO we solve for each i such that $u_i \notin$ {0,1} $^K$ the following problem:
